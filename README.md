@@ -1,6 +1,6 @@
 # nuxt-3-starter
 
-Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0.
+Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0
 
 ```
 ✨ Nuxt project is created with v3 template. Next steps:
@@ -8,6 +8,13 @@ Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0.
  › Install dependencies with npm install or yarn install or pnpm install
  › Start development server with npm run dev or yarn dev or pnpm run dev
 ```
+
+This project is fairly minimal, and includes:
+
+- Directories (components, pages, layouts, etc.)
+- Popular modules (Tailwind CSS, Pinia, Nuxt Content and Nuxt Image)
+- Linting (ESLint and Prettier)
+- Example home page and store
 
 ## Directories
 
@@ -20,9 +27,12 @@ This project has initialised directories for:
 - Pages
 - Plugins
 - Public
+- Stores
 
 ## Modules
 
-- Nuxt Tailwind (`@nuxtjs/tailwindcss`)
-- Nuxt Content (`@nuxt/content`)
+- Tailwind CSS (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
+- Nuxt Content (`@nuxt/content`)
+- Nuxt Image (`@nuxt/image-edge`)
+- ESLint and Prettier (several packages)
