@@ -16,6 +16,8 @@ This project is fairly minimal, and includes:
 - Linting (ESLint and Prettier)
 - Example home page and store
 
+![Screenshot of nuxt-3-starter home page with incrementable counter.](/preview.png)
+
 ## Directories
 
 This project has initialised directories for:
