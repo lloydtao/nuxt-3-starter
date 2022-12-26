@@ -14,3 +14,4 @@ Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0.
 This project has initialised directories for:
 
 - Assets
+- Components
