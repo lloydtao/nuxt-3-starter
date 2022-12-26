@@ -18,3 +18,4 @@ This project has initialised directories for:
 - Layouts
 - Pages
 - Plugins
+- Public
