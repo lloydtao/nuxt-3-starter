@@ -25,3 +25,4 @@ This project has initialised directories for:
 
 - Nuxt Tailwind (`@nuxtjs/tailwindcss`)
 - Nuxt Content (`@nuxt/content`)
+- Pinia (`@pinia/nuxt`)
