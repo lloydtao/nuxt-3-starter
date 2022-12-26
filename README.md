@@ -15,6 +15,7 @@ This project has initialised directories for:
 
 - Assets
 - Components
+- Content
 - Layouts
 - Pages
 - Plugins
@@ -23,3 +24,4 @@ This project has initialised directories for:
 ## Modules
 
 - Nuxt Tailwind (`@nuxtjs/tailwindcss`)
+- Nuxt Content (`@nuxt/content`)
