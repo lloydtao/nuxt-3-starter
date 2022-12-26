@@ -16,3 +16,4 @@ This project has initialised directories for:
 - Assets
 - Components
 - Layouts
+- Pages
