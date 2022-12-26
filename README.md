@@ -19,3 +19,7 @@ This project has initialised directories for:
 - Pages
 - Plugins
 - Public
+
+## Modules
+
+- Nuxt Tailwind (`@nuxtjs/tailwindcss`)
