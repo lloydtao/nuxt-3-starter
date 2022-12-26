@@ -14,6 +14,7 @@ This project is fairly minimal, and includes:
 - Directories (components, pages, layouts, etc.)
 - Popular modules (Tailwind CSS, Pinia, Nuxt Content and Nuxt Image)
 - Linting (ESLint and Prettier)
+- Basic metadata for head
 - Example home page and store
 
 ![Screenshot of nuxt-3-starter home page with incrementable counter.](/preview.png)
