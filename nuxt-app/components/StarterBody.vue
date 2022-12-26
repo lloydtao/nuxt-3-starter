@@ -46,7 +46,7 @@
           ></path>
         </svg>
         <p class="ml-4 text-slate-800">
-          <span class="font-semibold">Content</span> for a file-based CMS
+          <span class="font-semibold">Nuxt Content</span> for a file-based CMS
         </p>
       </li>
       <li class="flex items-center">
@@ -62,7 +62,7 @@
           ></path>
         </svg>
         <p class="ml-4 text-slate-800">
-          <span class="font-semibold">Image</span> for image optimisation
+          <span class="font-semibold">Nuxt Image</span> for image optimisation
         </p>
       </li>
     </ul>
