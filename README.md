@@ -17,3 +17,4 @@ This project has initialised directories for:
 - Components
 - Layouts
 - Pages
+- Plugins
