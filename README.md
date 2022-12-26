@@ -8,3 +8,9 @@ Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0.
  › Install dependencies with npm install or yarn install or pnpm install
  › Start development server with npm run dev or yarn dev or pnpm run dev
 ```
+
+## Directories
+
+This project has initialised directories for:
+
+- Assets
