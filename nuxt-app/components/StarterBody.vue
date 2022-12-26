@@ -7,11 +7,15 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <circle cx="12" cy="12" r="11"></circle>
+          <circle
+            cx="12"
+            cy="12"
+            r="11"
+          />
           <path
             d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
             fill="none"
-          ></path>
+          />
         </svg>
         <p class="ml-4 text-slate-800">
           <span class="font-semibold">Tailwind CSS</span> for styles
@@ -23,11 +27,15 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <circle cx="12" cy="12" r="11"></circle>
+          <circle
+            cx="12"
+            cy="12"
+            r="11"
+          />
           <path
             d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
             fill="none"
-          ></path>
+          />
         </svg>
         <p class="ml-4 text-slate-800">
           <span class="font-semibold">Pinia</span> for state management
@@ -39,11 +47,15 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <circle cx="12" cy="12" r="11"></circle>
+          <circle
+            cx="12"
+            cy="12"
+            r="11"
+          />
           <path
             d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
             fill="none"
-          ></path>
+          />
         </svg>
         <p class="ml-4 text-slate-800">
           <span class="font-semibold">Nuxt Content</span> for a file-based CMS
@@ -55,11 +67,15 @@
           stroke-linecap="round"
           stroke-linejoin="round"
         >
-          <circle cx="12" cy="12" r="11"></circle>
+          <circle
+            cx="12"
+            cy="12"
+            r="11"
+          />
           <path
             d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9"
             fill="none"
-          ></path>
+          />
         </svg>
         <p class="ml-4 text-slate-800">
           <span class="font-semibold">Nuxt Image</span> for image optimisation
