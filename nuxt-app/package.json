@@ -10,6 +10,7 @@
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "start": "nuxt start",
     "test": "vitest"
   },
   "devDependencies": {
