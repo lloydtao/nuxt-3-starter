@@ -24,7 +24,6 @@ This project has initialised the following directories:
 
 - `assets/`
 - `components/`
-- `content/`
 - `layouts/`
 - `pages/`
 - `plugins/`
@@ -38,7 +37,6 @@ This project has initialised the following directories:
 
 - Tailwind CSS (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
-- Nuxt Content (`@nuxt/content`)
 
 ### Packages
 
