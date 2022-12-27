@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <ul class="space-y-4">
+  <div class="flex space-x-5">
+    <div class="grid grid-cols-2 gap-5">
       <li class="flex items-center">
         <svg
           class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
@@ -24,33 +24,20 @@
           <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
         </svg>
         <p class="ml-4 text-slate-800">
+          <span class="font-semibold">Vitest</span> for testing
+        </p>
+      </li>
+      <li class="flex items-center">
+        <svg
+          class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="11" />
+          <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+        </svg>
+        <p class="ml-4 text-slate-800">
           <span class="font-semibold">Pinia</span> for state management
-        </p>
-      </li>
-      <li class="flex items-center">
-        <svg
-          class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <circle cx="12" cy="12" r="11" />
-          <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
-        </svg>
-        <p class="ml-4 text-slate-800">
-          <span class="font-semibold">Nuxt Content</span> for a file-based CMS
-        </p>
-      </li>
-      <li class="flex items-center">
-        <svg
-          class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        >
-          <circle cx="12" cy="12" r="11" />
-          <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
-        </svg>
-        <p class="ml-4 text-slate-800">
-          <span class="font-semibold">Nuxt Image</span> for image optimisation
         </p>
       </li>
       <li class="flex items-center">
@@ -77,9 +64,22 @@
           <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
         </svg>
         <p class="ml-4 text-slate-800">
-          <span class="font-semibold">Vitest</span> for testing
+          <span class="font-semibold">Nuxt Image</span> for image optimisation
         </p>
       </li>
-    </ul>
+      <li class="flex items-center">
+        <svg
+          class="h-6 w-6 flex-none fill-sky-100 stroke-sky-500 stroke-2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="11" />
+          <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+        </svg>
+        <p class="ml-4 text-slate-800">
+          <span class="font-semibold">Nuxt Content</span> for file-based CMS
+        </p>
+      </li>
+    </div>
   </div>
 </template>
