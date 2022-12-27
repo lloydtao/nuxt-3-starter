@@ -34,13 +34,12 @@ jobs:
         uses: actions/setup-node@v3.5.1
         with:
           node-version: ${{ matrix.node-version }}
-          cache: ${{ matrix.package-manager }}
 
       - name: Install npm dependencies
-        run: yarn
+        run: ${{ matrix.package-manager }}
 
       - name: Lint project
-        run: yarn lint
+        run: ${{ matrix.package-manager }} lint
 
       - name: Test project
-        run: yarn test
+        run: ${{ matrix.package-manager }} test
