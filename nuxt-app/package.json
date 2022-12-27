@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
+    "@kevinmarrec/nuxt-pwa": "^0.13.0",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/tailwindcss": "^6.2.0",
     "@vitejs/plugin-vue": "^4.0.0",
