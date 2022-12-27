@@ -38,7 +38,6 @@ This project has initialised the following directories:
 
 - Tailwind CSS (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
-- Nuxt Image (`@nuxt/image-edge`)
 - Nuxt Content (`@nuxt/content`)
 
 ### Packages
