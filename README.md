@@ -33,13 +33,8 @@ This project has initialised the following directories:
 
 ## Modules
 
-### Nuxt modules
-
 - Tailwind CSS (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
-
-### Packages
-
 - Testing (`vitest`, `@vue/test-utils`, etc.)
 - ESLint (`eslint`, `@nuxtjs/eslint-config-typescript`, etc.)
 - Prettier (`prettier`, `eslint-plugin-prettier`, etc.)
