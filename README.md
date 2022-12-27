@@ -1,6 +1,6 @@
 # nuxt-3-starter
 
-Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0
+A starter template for a basic Nuxt 3.0 (stable) project.
 
 ```
 ✨ Nuxt project is created with v3 template. Next steps:
@@ -11,33 +11,76 @@ Basic Nuxt 3.0 (stable) application, created using Nuxi 3.0.0
 
 This project is fairly minimal, and includes:
 
-- Directories (components, pages, layouts, etc.)
-- Popular modules (Tailwind CSS, Pinia, Nuxt Content and Nuxt Image)
-- Linting (ESLint and Prettier)
-- Basic metadata for head
-- Example home page and store
+- Directory structure
+- A few popular Nuxt modules
+- Linting and testing
+- Example home page, store and metadata
 
-![Screenshot of nuxt-3-starter home page with incrementable counter.](/preview.png)
+![Screenshot of nuxt-3-starter home page, with incrementable counter, and a description of installed modules.](/preview.png)
 
 ## Directories
 
-This project has initialised directories for:
+This project has initialised the following directories:
 
-- Assets
-- Components
-- Content
-- Layouts
-- Pages
-- Plugins
-- Public
-- Stores
-- Tests
+- `assets/`
+- `components/`
+- `content/`
+- `layouts/`
+- `pages/`
+- `plugins/`
+- `public/`
+- `stores/`
+- `tests/`
 
 ## Modules
 
+### Nuxt modules
+
 - Tailwind CSS (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
-- Nuxt Content (`@nuxt/content`)
 - Nuxt Image (`@nuxt/image-edge`)
-- ESLint and Prettier (several packages)
-- Vitest (several packages)
+- Nuxt Content (`@nuxt/content`)
+
+### Packages
+
+- Testing (`vitest`, `@vue/test-utils`, etc.)
+- ESLint (`eslint`, `@nuxtjs/eslint-config-typescript`, etc.)
+- Prettier (`prettier`, `eslint-plugin-prettier`, etc.)
+
+## Usage
+
+This is a standard Nuxt 3 project, and doesn't require any configuration. If you're new to Nuxt, you can get started by [reading the docs](https://nuxt.com/docs/getting-started/introduction).
+
+Open the project folder:
+
+```bash
+cd nuxt-app/
+```
+
+Install the dependencies:
+
+```bash
+yarn install
+```
+
+```bash
+npm install
+```
+
+```bash
+pnpm install --shamefully-hoist
+```
+
+Start the development server:
+
+```bash
+yarn dev -o
+```
+
+```bash
+npm run dev -- -o
+```
+
+```bash
+pnpm dev -o
+```
