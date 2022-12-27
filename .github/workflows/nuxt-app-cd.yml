@@ -1,0 +1,51 @@
+name: nuxt-app CD
+
+on:
+  push:
+    branches:
+      - feat/deployment
+
+defaults:
+  run:
+    shell: bash
+    working-directory: nuxt-app/
+
+jobs:
+  cd:
+    name: Test, build and deploy nuxt-app
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os:
+          - ubuntu-latest
+        node-version:
+          - 18.12.1
+        package-manager:
+          - yarn
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3.2.0
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Lint project
+        run: yarn lint
+
+      - name: Test project
+        run: yarn test
+
+      - name: Generate project
+        run: yarn generate
+
+      - name: Deploy project to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.4.1
+        with:
+          folder: nuxt-app/.output/public
