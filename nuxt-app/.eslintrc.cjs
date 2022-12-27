@@ -2,7 +2,6 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    "jest/globals": true,
     node: true,
   },
   parserOptions: {
@@ -10,7 +9,7 @@ module.exports = {
     requireConfigFile: false,
   },
   extends: ["@nuxtjs/eslint-config-typescript", "plugin:prettier/recommended"],
-  plugins: ["jest"],
+  plugins: ["vitest"],
   // add your custom rules here
   rules: {},
 };
