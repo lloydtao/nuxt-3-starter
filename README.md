@@ -1,6 +1,6 @@
 # nuxt-3-starter
 
-A starter template for a basic Nuxt 3.0 (stable) project.
+Starter template for a basic Nuxt 3.0 (stable) project.
 
 ```
 ✨ Nuxt project is created with v3 template. Next steps:
