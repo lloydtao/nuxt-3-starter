@@ -31,6 +31,7 @@ This project has initialised directories for:
 - Plugins
 - Public
 - Stores
+- Tests
 
 ## Modules
 
