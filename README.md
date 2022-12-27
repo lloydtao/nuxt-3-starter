@@ -2,6 +2,8 @@
 
 Starter template for a basic Nuxt 3.0 (stable) project.
 
+Demo: [nuxt-3-starter.lloyd.cx/](https://nuxt-3-starter.lloyd.cx/)
+
 ```
 ✨ Nuxt project is created with v3 template. Next steps:
  › cd nuxt-app
