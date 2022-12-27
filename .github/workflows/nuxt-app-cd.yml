@@ -3,7 +3,7 @@ name: nuxt-app CD
 on:
   push:
     branches:
-      - main
+      - feat/deployment-service-worker
 
 defaults:
   run:
