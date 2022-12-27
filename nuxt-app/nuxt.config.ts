@@ -8,10 +8,5 @@ export default defineNuxtConfig({
       meta: [{ name: "description", content: "Starter template for Nuxt 3." }],
     },
   },
-  modules: [
-    "@nuxt/content",
-    "@nuxt/image-edge",
-    "@nuxtjs/tailwindcss",
-    "@pinia/nuxt",
-  ],
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@pinia/nuxt"],
 });
