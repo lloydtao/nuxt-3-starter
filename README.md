@@ -39,3 +39,4 @@ This project has initialised directories for:
 - Nuxt Content (`@nuxt/content`)
 - Nuxt Image (`@nuxt/image-edge`)
 - ESLint and Prettier (several packages)
+- Vitest (several packages)
