@@ -1,6 +1,6 @@
-# nuxt-3-starter
+# Nuxt 3 Starter
 
-Starter template for a basic Nuxt 3.0 (stable) project.
+Starter template for Nuxt 3 with Tailwind, Pinia, Vitest, ESLint and Prettier
 
 Demo: [nuxt-3-starter.lloyd.cx/](https://nuxt-3-starter.lloyd.cx/)
 
@@ -16,13 +16,13 @@ This project is fairly minimal, and includes:
 - Directory structure
 - A few popular Nuxt modules
 - Linting and testing
-- Example home page, store and metadata
+- Home page with example store
 
 ![Screenshot of nuxt-3-starter home page, with incrementable counter, and a description of installed modules.](/preview.png)
 
 ## Directories
 
-This project has initialised the following directories:
+The following directories have been created:
 
 - `assets/`
 - `components/`
@@ -33,17 +33,20 @@ This project has initialised the following directories:
 - `stores/`
 - `tests/`
 
-## Modules
+## Packages
 
-- Tailwind CSS (`@nuxtjs/tailwindcss`)
+- Tailwind (`@nuxtjs/tailwindcss`)
 - Pinia (`@pinia/nuxt`)
-- Testing (`vitest`, `@vue/test-utils`, etc.)
-- ESLint (`eslint`, `@nuxtjs/eslint-config-typescript`, etc.)
-- Prettier (`prettier`, `eslint-plugin-prettier`, etc.)
+- Vitest (`vitest`, `@vue/test-utils`, etc.)
+- Linting:
+  - ESLint (`eslint`, `@nuxtjs/eslint-config-typescript`, etc.)
+  - Prettier (`prettier`, `eslint-plugin-prettier`, etc.)
 
-## Usage
+## Getting started
 
-This is a standard Nuxt 3 project, and doesn't require any configuration. If you're new to Nuxt, you can get started by [reading the docs](https://nuxt.com/docs/getting-started/introduction).
+This is a standard Nuxt 3 project. If you're new to Nuxt, you can get started by [reading the docs](https://nuxt.com/docs/getting-started/introduction).
+
+### Usage
 
 Open the project folder:
 
@@ -78,3 +81,7 @@ npm run dev -- -o
 ```bash
 pnpm dev -o
 ```
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/LICENSE) file for details.
