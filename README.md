@@ -4,12 +4,7 @@ Starter template for Nuxt 3 with Tailwind, Pinia, Vitest, ESLint and Prettier
 
 Demo: [nuxt-3-starter.lloyd.cx/](https://nuxt-3-starter.lloyd.cx/)
 
-```
-✨ Nuxt project is created with v3 template. Next steps:
- › cd nuxt-app
- › Install dependencies with npm install or yarn install or pnpm install
- › Start development server with npm run dev or yarn dev or pnpm run dev
-```
+![Screenshot of nuxt-3-starter home page, with incrementable counter, and a description of installed modules.](/preview.png)
 
 This project is fairly minimal, and includes:
 
@@ -18,7 +13,12 @@ This project is fairly minimal, and includes:
 - Linting and testing
 - Home page with example store
 
-![Screenshot of nuxt-3-starter home page, with incrementable counter, and a description of installed modules.](/preview.png)
+```
+✨ Nuxt project is created with v3 template. Next steps:
+ › cd nuxt-app
+ › Install dependencies with npm install or yarn install or pnpm install
+ › Start development server with npm run dev or yarn dev or pnpm run dev
+```
 
 ## Directories
 
